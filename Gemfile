@@ -10,6 +10,7 @@ gem 'binding_of_caller'
 gem 'bootstrap-sass'
 gem 'pry-rails'
 gem 'bcrypt'
+gem 'httparty'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
