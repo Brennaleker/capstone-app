@@ -1,5 +1,25 @@
-<div class = 'brand'>
-	<header>
-			<%= link_to 'GiveHaven.org', root_path %>
-	</header>
+<div class = "brand">
+	<div class = "col-sm-4">
+		<%= link_to 'GiveHaven.org', root_path %>
+	</div>
+	<div class = "col-sm-3">
+		<ul>
+			<li>
+				<%= @organizations_count %> Shelters
+			</li>
+			<li>
+				<%= @projects_approved_count %> Projects
+			</li>
+		</ul>
+	</div>
+	<div class = "col-sm-3">
+		<ul>
+			<li>
+				<%= @donors_count %> Donors
+			</li>
+			<li>
+				$<%= @total_gifted %> given
+			</li>
+		</ul>
+	</div>
 </div>

@@ -20,35 +20,40 @@ p {
   font-size: 12px;
 }
 
-header {
-  color: #192Bc2;
-  padding: 20px;
-  font-size: 25px;
-  height: 75px;
-}
-
 .brand {
+  margin-bottom: 50px;
+  padding: 20px;
+  color: #192Bc2;
+  font-size: 25px;
   font-family: 'Cabin';
 }
 
-.brand a{
-  color: #4B43F1;
+.brand li {
+  font-size: 16px;
+}
+
+.brand a, .brand a:visited {
+  color: #192Bc2;
   text-decoration: none;
 }
 
-.navbar {
+.brand_nav {
   background-color: #4392f1;
   color: #fff;
 }
 
-.navbar a{
+.brand_nav a, .brand_nav a:visited {
   color: #fff;
+  background-color: #4392f1;
 }
 
-.navbar ul li a:hover{
+.brand_nav ul li a:hover{
   background-color: #72ADF5;
 }
 
+.active ul li a {
+  background-color: #fff;
+}
 .container-padding {
   margin-bottom: 50px;
 }
