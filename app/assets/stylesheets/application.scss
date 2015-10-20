@@ -54,6 +54,27 @@ p {
 .active ul li a {
   background-color: #fff;
 }
+
+.center-form {
+  max-width: 40%;
+  margin: auto;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #5ba0f3;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.center-form legend {
+ color: #fff;
+}
+
+.form-btn {
+  background-color: #2b84ef;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
 .container-padding {
   margin-bottom: 50px;
 }

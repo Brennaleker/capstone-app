@@ -15,6 +15,9 @@ class HomeController < ApplicationController
     retrieve_profile
   end
 
+  def login
+  end
+
   private
 
   def users
