@@ -16,15 +16,19 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+// GLOBALS
 p {
-  font-size: 12px;
+  font-size: 16px;
 }
 
+
+// HEADER
 .brand {
   margin-bottom: 50px;
   padding: 20px;
   color: #192Bc2;
   font-size: 25px;
+  letter-spacing: 1px;
   font-family: 'Cabin';
 }
 
@@ -37,9 +41,13 @@ p {
   text-decoration: none;
 }
 
+
+// NAV BAR
 .brand_nav {
   background-color: #4392f1;
   color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .brand_nav a, .brand_nav a:visited {
@@ -55,10 +63,12 @@ p {
   background-color: #fff;
 }
 
+
+// FORMS
 .center-form {
   max-width: 40%;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 75px;
   padding: 20px;
   background-color: #5ba0f3;
   border-radius: 10px;
@@ -73,6 +83,15 @@ p {
   background-color: #2b84ef;
   color: #fff;
   border: 2px solid #fff;
+}
+
+
+
+.about {
+  width: 50%;
+  margin: auto;
+  margin-top: 25px;
+  line-height: 1.5;
 }
 
 .container-padding {

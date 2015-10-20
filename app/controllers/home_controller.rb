@@ -11,6 +11,9 @@ class HomeController < ApplicationController
     donors
   end
 
+  def about
+  end
+
   def profile
     retrieve_profile
   end
@@ -18,10 +21,21 @@ class HomeController < ApplicationController
   def login
   end
 
+  def signup
+  end
+
+  def new_user
+  end
+
   private
 
   def users
     @users_result = HTTParty.get('http://localhost:3001/users')["data"]
+  end
+
+  def create_user
+    @user_info = params[]
+    HTTParty.post('http://localhost:3001/users', :body => @user_info)
   end
 
   def donors

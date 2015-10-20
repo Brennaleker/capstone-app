@@ -1,0 +1,23 @@
+<div class = "form center-form">
+  <%= form_tag({controller:'home', action: 'signup'}, method: "post") do %>
+    <legend>Sign Up</legend>
+    <div class = "form-group">
+      <%= label_tag :username, "Username:" %>
+      <%= text_field_tag :username, id: 'username_field', class: 'form-control' %>
+    </div>
+    <div class = "form-group">
+      <%= label_tag :email, "Email:" %>
+      <%= text_field_tag :email, class: "form-control", id: 'email_field' %>
+    </div>
+    <div class = "form-group">
+      <%= label_tag :password, "Password:" %>
+      <%= text_field_tag :password, class: "form-control", id: 'password_field' %>
+    </div>
+    <div class = "form-group">
+      <%= label_tag :password_confirmation, "Password Confirmation:" %>
+      <%= text_field_tag :password_confirmation, class: "form-control", id: 'password_confirmation_field' %>
+    </div>
+
+    <%= submit_tag "Login", class: 'btn form-btn' %>
+  <% end %>
+</div>
